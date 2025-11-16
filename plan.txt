@@ -1,0 +1,16 @@
+client:
+puo fare richieste al server
+notificare il server di cambi del proprio IP
+ + a tempo
+ + ogni messaggio che invia il client
+ + client avvisa server <=> client rileva cambio di proprio IP
+scrivere da CLI (shell)
+ + help
+ + ping server / utente
+ + msg
+ + [...]
+
+server:
+sempre acceso, sempre stesso IP
+riceve richieste client
+inoltra al client richiesto
